@@ -1,0 +1,51 @@
+#image-box {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#image-box > img {
+  height: 100%;
+}
+
+#profile-box {
+  padding: 16px;
+  margin: 10px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+#profile-box > img {
+  width: 50px;
+  height: 50px;
+}
+#profile-box > span {
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+#contents-box {
+  padding: 16px;
+}
+#name {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#price {
+  font-size: 20px;
+  font-weight: 600;
+}
+#createdAt {
+  font-size: 18px;
+  color: rgb(204, 204, 204);
+}
+#description {
+  margin-top: 20px;
+  font-size: 20px;
+}
+#purchase-button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  float: right;
+}
